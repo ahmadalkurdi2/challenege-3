@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  line-height: 1.6;
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: #f2f2f2; }
+
+.cards {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 30rem;
+  justify-content: space-between;
+  max-width: 50rem;
+  height: 60rem;
+  overflow: hidden;
+  background-color: #fff;
+  color: #000;
+  font-size: 1rem;
+  padding: 4rem; }
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; }
+  .card__img-1 {
+    flex: 0 0 12rem;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon-sedans.svg);
+    padding: 1.5rem; }
+  .card__img-2 {
+    flex: 0 0 12rem;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon-suvs.svg);
+    padding: 1.5rem; }
+  .card__img-3 {
+    flex: 0 0 12rem;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon-luxury.svg);
+    padding: 1.5rem; }
+  .card__title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: "Big Shoulders Display", cursive;
+    color: #f2f2f2; }
+  .card__snippet {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.75); }
+  .card__btn-1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #e38826;
+    border: none;
+    border-radius: 2.5rem;
+    width: 60%;
+    padding: 1.5rem;
+    cursor: pointer; }
+    .card__btn-1:active {
+      background: transparent;
+      border: 3px solid #f2f2f2;
+      color: rgba(255, 255, 255, 0.75); }
+  .card__btn-2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #006970;
+    border: none;
+    border-radius: 2.5rem;
+    width: 60%;
+    padding: 1.5rem;
+    cursor: pointer; }
+    .card__btn-2:active {
+      background: transparent;
+      border: 3px solid #f2f2f2;
+      color: rgba(255, 255, 255, 0.75); }
+  .card__btn-3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #004241;
+    border: none;
+    border-radius: 2.5rem;
+    width: 60%;
+    padding: 1.5rem;
+    cursor: pointer; }
+    .card__btn-3:active {
+      background: transparent;
+      border: 3px solid #f2f2f2;
+      color: rgba(255, 255, 255, 0.75); }
+  .card-1 {
+    background-color: #e38826;
+    border-top-left-radius: 1rem; }
+  .card-2 {
+    background-color: #006970; }
+  .card-3 {
+    background-color: #004241;
+    border-top-right-radius: 1rem; }
